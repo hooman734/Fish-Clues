@@ -1,0 +1,16 @@
+*For setting a PATH permanently in fish terminal:
+
+adding / $HOME / .cargo / bin as an example,  just use :
+
+e.g. => set -U fish_user_paths  / $HOME / .cargo / bin $fish_user_paths
+
+info => -U represents its Universality
+
+
+*For saving an alias permanently in fish terminal:
+
+e.g. => alias do="sudo docker"
+	funcsave do
+
+
+*For
